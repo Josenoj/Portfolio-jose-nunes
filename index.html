@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio - José Nunes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <h1>José Nunes</h1>
+
+        <!-- Menu principal -->
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <!-- Botão tema escuro -->
+        <button id="temaBtn">
+            Alternar Tema
+        </button>
+
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+
+        <h2>Sobre Mim</h2>
+
+        <p>
+            Meu nome é José Nunes, tenho 23 anos e atualmente trabalho como
+            estoquista.
+        </p>
+
+        <p>
+            Estou cursando Análise e Desenvolvimento de Sistemas na Uninter
+            e busco construir uma carreira na área de tecnologia.
+        </p>
+
+        <p>
+            Tenho interesse em programação, automação com Python,
+            suporte técnico, redes e segurança da informação.
+        </p>
+
+        <h3>Hobbies</h3>
+
+        <ul>
+            <li>Estudar tecnologia</li>
+            <li>Aprender programação</li>
+            <li>Assistir conteúdos sobre TI</li>
+            <li>Academia</li>
+            <li>Jogos</li>
+        </ul>
+
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="formacao">
+
+        <h2>Formação</h2>
+
+        <h3>Graduação</h3>
+
+        <p>
+            Análise e Desenvolvimento de Sistemas - UNINTER
+            (em andamento)
+        </p>
+
+        <h3>Cursos</h3>
+
+        <ul>
+            <li>Python Básico</li>
+            <li>Fundamentos de Redes</li>
+            <li>Informática</li>
+            <li>Fundamentos de TI</li>
+        </ul>
+
+        <h3>Idiomas</h3>
+
+        <ul>
+            <li>Português - Nativo</li>
+            <li>Inglês - Básico</li>
+        </ul>
+
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+
+        <h2>Portfólio</h2>
+
+        <div class="card">
+
+            <h3>Projeto Portfólio Web</h3>
+
+            <p>
+                Site desenvolvido utilizando HTML, CSS e JavaScript.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Exercícios em Python</h3>
+
+            <p>
+                Programas de lógica de programação desenvolvidos
+                durante os estudos.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Automações Futuras</h3>
+
+            <p>
+                Espaço reservado para projetos de automação
+                utilizando Python.
+            </p>
+
+        </div>
+
+        <p>
+            Meu GitHub:
+            <a href="https://github.com/Josenoj" target="_blank">
+                Clique aqui
+            </a>
+        </p>
+
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+
+        <h2>Contato</h2>
+
+        <form id="formContato">
+
+            <label>Nome:</label>
+            <input type="text" id="nome">
+
+            <label>E-mail:</label>
+            <input type="email" id="email">
+
+            <label>Mensagem:</label>
+            <textarea id="mensagem"></textarea>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+        <!-- Mensagem exibida pelo JavaScript -->
+        <p id="resultado"></p>
+
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+
+        <p>
+            © 2026 - José Nunes
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

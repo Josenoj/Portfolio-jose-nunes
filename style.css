@@ -1,0 +1,120 @@
+/* Reset simples */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* fluidez*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Corpo da página */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Cabeçalho */
+
+header{
+    background:#222;
+    color:white;
+    padding:20px;
+    text-align:center;
+    position: static;
+    top:0;
+}
+
+/* Menu */
+
+nav ul{
+    list-style:none;
+    margin-top:10px;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* Seções */
+
+section{
+    padding:50px;
+    max-width:900px;
+    margin: auto;
+    scroll-margin-top: 15px;
+}
+
+/* Paragrafos e linhas*/
+
+section p,
+section ul{
+    margin-left:35px;
+    padding: 2px;
+}
+
+/* Cards */
+
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Formulário */
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input,
+textarea{
+    margin-bottom:15px;
+    padding:10px;
+}
+
+button{
+    padding:10px;
+    cursor:pointer;
+}
+
+/* Rodapé */
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
+}
+
+/* Tema escuro */
+
+.dark{
+    background:#121212;
+    color:white;
+}
+
+.dark .card{
+    background:#222;
+    color:white;
+}
